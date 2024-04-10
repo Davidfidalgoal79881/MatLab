@@ -1,0 +1,13 @@
+% Definindo o intervalo de x
+x = 1:0.1:2;
+
+% Calculando as funções
+y1 = 1.5-(cos(x)cos(x))
+%y2 = exp(x);
+
+
+% Plotando os gráficos
+plot(x, y1);
+
+% Adicionando a legenda
+legend('y1 = atan(x)' );
